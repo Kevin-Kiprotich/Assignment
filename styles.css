@@ -1,0 +1,33 @@
+body{
+    background-color:#eeeeff;
+    padding:0 !important;
+    margin:0 !important;
+    width:100vw;
+}
+
+nav{
+    height:7vh;
+    width:100%;
+    background-color:#d9d9d9;
+}
+section{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    height:93vh;
+    width:100%;
+    background-image: linear-gradient(to left, rgba(133, 133, 133, 0.6) 60%, rgba(133, 133, 133, 0.6)), url("https://thumbs.dreamstime.com/b/white-light-grey-osaka-city-area-vector-background-map-streets-water-cartography-illustration-widescreen-proportion-digital-224741748.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:contain;
+}
+
+section div{
+    margin-top:250px;
+    width:650px;
+    text-align:center;
+}
+
+h1{
+    margin:0 !important;
+}
